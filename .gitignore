@@ -1,0 +1,12 @@
+.claude/
+__pycache__/
+*.pyc
+.venv/
+data_cache/
+# DLR-UT trajectory data itself (licensed dataset, not ours to redistribute)
+# -- fetch it via scripts/download_dlr_ut.py + scripts/fetch_sample_data.py,
+# see README.
+sample_data/dlr_ut/*.csv
+.streamlit/secrets.toml
+.DS_Store
+*.egg-info/
